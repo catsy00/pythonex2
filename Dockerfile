@@ -1,4 +1,4 @@
-FROM rhel7:latest
+FROM python-36-rhel7:latest
 
 ENV COLOR "red"
 RUN yum update -y && \
