@@ -1,5 +1,4 @@
-FROM python-36-rhel7:latest
-
+FROM registry.redhat.io/rhscl/python-36-rhel7
 ENV COLOR "red"
 RUN yum update -y && \
     yum install -y python-pip python-dev
