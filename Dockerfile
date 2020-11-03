@@ -1,4 +1,4 @@
-FROM rhel8:latest
+FROM rhel7:latest
 
 ENV COLOR "red"
 RUN yum update -y && \
